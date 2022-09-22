@@ -1,11 +1,3 @@
-#' @keywords internal
-"_PACKAGE"
-
-## usethis namespace: start
-## usethis namespace: end
-NULL
-
-
 #' @title Select2
 #'
 #' @param df  a data frame
@@ -14,7 +6,8 @@ NULL
 #' @return returns the exact same thing as the function "select()" from dplyr
 #' @export 
 #' 
-#' @examples select2(iris, sepal.length)
+#' @examples 
+#' select2(iris, "Sepal.Length")
 #' 
 select2 <- function(df, ind)
 {

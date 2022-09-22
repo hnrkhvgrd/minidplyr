@@ -18,6 +18,6 @@ returns the exact same thing as the function "select()" from dplyr
 Select2
 }
 \examples{
-select2(iris, sepal.length)
+select2(iris, "Sepal.Length")
 
 }
