@@ -21,4 +21,3 @@ select2 <- function(df, ind)
         df[ind]
 }
 
-usethis::use_test()
