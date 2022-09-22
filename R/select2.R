@@ -14,14 +14,10 @@ NULL
 #' @return returns the exact same thing as the function "select()" from dplyr
 #' @export 
 #' 
-#' @importFrom dplyr
-#' 
-#' @examples
+#' @examples select2(iris, sepal.length)
 #' 
 select2 <- function(df, ind)
 {
         df[ind]
 }
-
-?select2
 
